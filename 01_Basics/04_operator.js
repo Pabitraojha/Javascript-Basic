@@ -61,3 +61,4 @@ console.log(null == 0); //false
 console.log(null >= 0 ); //true (here value conversion )
 /* here the reason is that an m equality chek == and comparisons >, < , >= , <= works differently. 
 comparisions convert null to a number, treating it as 0. That's why null >= 0 is ture and null > 0 is false.
+*/
