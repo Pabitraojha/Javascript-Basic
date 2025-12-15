@@ -72,4 +72,28 @@ console.log(arr);//[10, 20, 15, 14, 14, 50, 60, 70, 80, 90]
 arr.splice(-6,3);//Negative Index
 console.log(arr);//[10, 20, 15, 14, 70, 80, 90]
 
+//Spread operator
+const a = [1,2,3,4,5,6,7];
+const b = [768,98,465,2542,33];
+const c = ["sd","er","ewt"];
+const newD= [...a,...b,...c];//concat all elements of array
+console.log(newD);
+
+//flat 
+const another_array= [1,2,3,[4,5,6],7,[3,4,[5,6,7]]];
+console.log(another_array);
+const real_array = another_array.flat(Infinity);
+console.log(real_array);//it will print all nested array in a single array
+
+// isArray and from
+console.log(Array.isArray("ojha"));//check ojha is an array or not
+console.log(Array.from("Ojha"));// convert into an array     [ 'O', 'j', 'h', 'a' ]
+
+//Array.of
+const score1=100;
+const score2=200;
+const score3=300;
+console.log(Array.of(score1,score2,score3));//convert values into an array
+
+
   
