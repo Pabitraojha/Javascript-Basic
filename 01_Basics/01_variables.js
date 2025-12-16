@@ -6,8 +6,8 @@ let var1 = "pabitra";
 a string. let is a block scoped variable and we can't redeclare it.*/
 
 var name= "pabitra";
-/* here var is a keyword used to decalre a variable and it is a taraditional
-way to declare a variable and it has function scope and it can radeclare .
+/* here var is a keyword used to decalre a variable and it is a traditional
+way to declare a variable and it has function scope and it can be radeclare .
 */
 
 const myName= "pabitra";
