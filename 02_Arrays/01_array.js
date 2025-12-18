@@ -95,5 +95,9 @@ const score2=200;
 const score3=300;
 console.log(Array.of(score1,score2,score3));//convert values into an array
 
-
+//array element access
+let newarr= [10,20,30,40,50,60];
+for ( let i=0; i<newarr.length; i++){
+    console.log(newarr[i]);
+}
   
