@@ -34,6 +34,6 @@ const myObj= {
     'game1': "BGMI",
     'game2': "freefair"
 };
-for(const obj of myObj){//object can't be iterable through forOf loop
+for(const obj of myObj){//object can't be iterable through for of loop
     console.log(obj);
 }
