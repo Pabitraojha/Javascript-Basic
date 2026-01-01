@@ -19,6 +19,6 @@ b) NOn-Primitive Datatypes
     3.Function
 */
 let age=23;
-typeof(age); //typeof operator used to find the type of a datatype.
+typeof(age); //typeof operator used to find the type of a variable.
 console.log(typeof null);//it will show object
 console.log(typeof undefined);//it will give undefiend
