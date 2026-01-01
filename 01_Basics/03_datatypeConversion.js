@@ -50,7 +50,7 @@ console.log(3+4*5-8/2 %2);// output 23
 
 console.log(true);// output true
 console.log(+true);// output 1
-// console.lot(true+)  (give error)
+// console.log(true+)  (give error)
 console.log(+"");//output 0
 
 let num1, num2, num3;
