@@ -22,7 +22,7 @@ myFunction();
 })("Bablu");
 
 // ******** How javascript execute code **********//
-/* js executes cod eusing a single-threaded execution model with the help of execution context , call stack, web APIs , callback queue, microstack queue and event loop */
+/* js executes code using a single-threaded execution model with the help of execution context , call stack, web APIs , callback queue, microstack queue and event loop */
 // it first execute the asynchronous code then handles asynchronous code using the event loop mechanism.
 // Javascript engine: every browser has a javascript engine (V8 in chrome) .
 //this engine consists of   1) memory heap : stores variable and objects.

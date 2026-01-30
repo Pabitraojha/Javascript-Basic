@@ -16,7 +16,7 @@ function one(){
         const website = "youtube";
         console.log(username);
     }
-    //console.log(website);==thowing error
+    //console.log(website);==throwing error
     two();//function call two
 }
 one();//function call one

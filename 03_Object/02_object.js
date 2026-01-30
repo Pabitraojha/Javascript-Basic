@@ -1,10 +1,11 @@
 // Object declaration by singleton
-const tinderUser= new Object();
+const tinderUser= new Object();//empty object
 console.log(tinderUser);
 tinderUser.Id = "23A";
 tinderUser.name="Ojha";
 tinderUser.isLoggedIn = "No";
 
+//Nested Object
 const newUser={
     email: "sdfl@gmail.com",
     fullName: {
@@ -21,14 +22,15 @@ console.log(newUser.fullName.userFullName.firstname);
 const obj1={1: "a",2: "b"};
 const obj2={3: "c",4: "d"};
 const obj3={5: "e",6: "f"};
-//1st method
+//1st method (object.assign())
 const obj4=  Object.assign({},obj1,obj2);
 console.log(obj4);//{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
-//2nd method
+//2nd method (Spread operator)
 const obj5={...obj1,...obj2};//{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }   
 console.log(obj5);
 
 
+//here user is an array and each array element is an object
 const users=[
     {
         id: 1,

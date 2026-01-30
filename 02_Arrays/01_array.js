@@ -31,7 +31,7 @@ console.log(name);//[ 'Bablu', 'Gudo', 'Dudu', 'Abhijit' ]
 console.log(name.includes("hello"));//false
 
 //index()
-console.log(name.indexOf(2));// -1 for non-existing element
+console.log(name.indexOf(2));// -1 for non-existing element here two is a number value not present in the array element.
 console.log(name.indexOf("Dudu"));//2
 
 

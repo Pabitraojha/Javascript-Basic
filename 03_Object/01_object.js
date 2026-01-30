@@ -21,7 +21,7 @@ let person = {
 // another example
 let car = {
   brand: "Tesla",
-  "full name": "Bablu",///can't access this name with ( . ) that's why we use ( [] )
+  "full name": "Bablu",///can't access this name with ( . ) that's why we use ( [])
   model: "Model S",
   start: function () {
     console.log("Car started");
@@ -75,7 +75,7 @@ const man ={
     height: "5.7"
 }
 
-man.greeting= function(){
+man.greeting= function(){// expression function as an object method
     console.log("Hello....js user");
 }
 man.greeting2 = function(){
