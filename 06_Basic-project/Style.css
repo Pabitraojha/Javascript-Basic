@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 80px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#home{
+    height: 40px;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+}
+#you-cha{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin: 20px;
+}
+/*main Start*/
+.body{
+    background-color: beige;
+    height: 90vh;
+    
+}
+.hero{
+    
+
+}
+.pro-1{
+     background-color:rgb(50, 46, 46);
+    color: white;
+    height: 50px;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 10px 100px;
+    margin: 10px 500px;
+    font-size: 20px;
+}
+.pro-2{
+     background-color:rgb(50, 46, 46);
+    color: white;
+    height: 50px;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 10px 100px;
+    margin: 10px 500px;
+    font-size: 20px;
+}
+.pro-3{
+     background-color:rgb(50, 46, 46);
+    color: white;
+    height: 50px;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 10px 100px;
+    margin: 10px 500px;
+    font-size: 20px;
+}
+.pro-4{
+    background-color:rgb(50, 46, 46);
+    color: white;
+    height: 50px;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 10px 100px;
+    margin: 10px 500px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    color: blue;
+}

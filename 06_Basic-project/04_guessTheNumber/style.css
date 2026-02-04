@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:bisque;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin: 5px;
+}
+#github{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin: 5px;
+}

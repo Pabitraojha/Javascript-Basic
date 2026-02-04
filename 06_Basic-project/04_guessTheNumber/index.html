@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number🤷🏻</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+      <nav>
+        <button id="home" onclick="window.location.href = '../index.html'">
+          Home
+        </button>
+        <button id="github">Github</button>
+      </nav>
+    </header>
+    <h1>Number Guessing Game</h1>
+    <div>
+        <p>Try and guess a random number between 1 and 100. You have 10 attempts to guess the right number</p>
+        <p class="top">Guess a Number</p>
+        <input type="text">
+        <button>Submit guess</button>
+        <label for="p-g">Previous Guesses :</label>
+        <input type="text" id="p-g">
+        <label for="R-g">Remaining Guesses :</label>
+        <input type="text" id="R-g">
+
+    </div>
+</body>
+</html>
