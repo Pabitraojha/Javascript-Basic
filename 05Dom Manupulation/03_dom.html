@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 03</title>
+</head>
+<body>
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLang(langName){
+        const Li = document.createElement("Li");
+        Li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(Li);
+    }
+    addLang("python");
+    addLang("java");
+    addLang("typescript")
+
+    // optimised way //
+    function addopLang(langName){
+            const Li= document.createElement('li');
+            Li.appendChild(document.createTextNode(langName));
+            document.querySelector('.language').appendChild(Li);
+    }
+    addopLang("golang");
+
+    //Edit 
+    const thirdLang =document.querySelector('Li:nth-child(3)');
+    // thirdLang.innerHTML = "Mojo";  (not optimised way)
+    const newLi = document.createElement('Li');
+    newLi.textContent = "Mojo";
+    thirdLang.replaceWith(newLi);
+
+    // Edit 
+    const firstLang = document.querySelector("Li:first-child");
+    firstLang.outerHTML = "<li> Typescript </li>";
+
+    // Remove
+    const lastLang = document.querySelector("Li:last-child");
+    lastLang.remove();
+
+
+</script>
+</html>
