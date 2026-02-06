@@ -100,4 +100,15 @@ let newarr= [10,20,30,40,50,60];
 for ( let i=0; i<newarr.length; i++){
     console.log(newarr[i]);
 }
+
+//array sorting
+//  we use sort  ((a,b)=>a-b)--- for ascending
+//               ((a,b)=>b-a)--- for descending
+let array=[2,3,6,7,1,4,9,5];
+const sortArray=array.sort((a,b)=>a-b);//Ascending order
+console.log(sortArray);
+
+const sortArr= array.sort((a,b)=>b-a);
+console.log(sortArr); // Descending order
+
   
