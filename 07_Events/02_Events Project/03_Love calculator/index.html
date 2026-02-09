@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-size: 100px;
+        animation: slideRight 2s ease-out forwards;
+      }
+      div {
+        height: 300px;
+        width: 400px;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: blueviolet;
+        color: black;
+      }
+      input{
+        font-size:25px;
+        display: block;
+        height: 30px;
+        width: 200px;
+        margin-left: 20px;
+      }
+      label{
+        font-size:25px;
+        display:block;
+        margin-top: 15px;
+        margin-left: 20px;  
+      }
+      button{
+        height:30px;
+        width: 100px;
+        font-size: 25px;
+        margin:20px;
+        border-radius: 10px;
+      }
+      button:hover{
+        background-color: rgb(251, 215, 8);
+      }
+      /* The animation code */
+      @keyframes slideRight {
+        from {
+          transform: translateX(-500px); /* Start from left */
+          opacity: 0;
+        }
+
+        to {
+          transform: translateX(0); /* Final position */
+          opacity: 1;
+        }
+      }
+      #loadingText{
+        display: none;
+        color:white;
+        font-size:25px;
+      }
+    </style>
+  </head>
+  <body style="background-color: black; color: white">
+    <h1>Crush Calculator</h1>
+    <form>
+      <div>
+        <label for="boy">Enter your Name:</label>
+        <input type="text" id="boy" required />
+
+        <label for="girl">Enter your Crush Name:</label>
+        <input type="text" id="girl" required />
+
+        <button type="submit">Result</button>
+        <span id="loadingText">Loading...</span>
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
