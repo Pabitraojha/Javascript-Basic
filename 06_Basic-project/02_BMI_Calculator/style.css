@@ -29,7 +29,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.hero{
+form{
     height: 500px;
     width: 700px;
     background-color:ivory;
@@ -38,7 +38,7 @@ nav{
     margin: 50px;
     padding-left: 100px;
 }
-.hero h1{
+form h1{
     font-size: 45px;
     text-decoration: underline;
 }
@@ -54,6 +54,7 @@ label[for="height"], label[for="weight"]{
     width: 200px;
     background-color: darkgray;
     margin: 10vh;
+    border-radius: 10px;
 }
 .btn:hover{
     background-color: brown;
@@ -66,4 +67,12 @@ label[for="height"], label[for="weight"]{
     margin-left:80vh;
 
     font-size: 25px;
+}
+/* result button */
+#result{
+    height: 40px;
+    width: 200px;
+    margin-left: 90px;
+    padding: 10px;
+    font-size:25px;
 }
