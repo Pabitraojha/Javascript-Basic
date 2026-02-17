@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess the number🤷🏻</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
       <nav>
         <button id="home" onclick="window.location.href = '../index.html'">
@@ -16,17 +15,22 @@
         <button id="github">Github</button>
       </nav>
     </header>
-    <h1>Number Guessing Game</h1>
-    <div>
-        <p>Try and guess a random number between 1 and 100. You have 10 attempts to guess the right number</p>
-        <p class="top">Guess a Number</p>
-        <input type="text">
-        <button>Submit guess</button>
+    <main>
+      <h1>Number Guessing Game</h1>
+      <p class="headerPara">
+          Try and guess a random number between 1 and 100. You have 10 attempts
+          to guess the right number
+        </p>
+      <form class="parent">
+        <label for="userInput">Guess a number</label>
+        <input type="text" id="userInput" required/>
+        <button type="submit">Submit</button>
         <label for="p-g">Previous Guesses :</label>
-        <input type="text" id="p-g">
+        <input type="text" id="p-g" />
         <label for="R-g">Remaining Guesses :</label>
-        <input type="text" id="R-g">
-
-    </div>
-</body>
+        <input type="text" id="R-g" />
+      </form>
+    </main>
+  </body>
+  <script src="script.js" defer></script>
 </html>
